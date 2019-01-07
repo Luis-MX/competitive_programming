@@ -1,0 +1,8 @@
+{
+	"cmd": ["javac","$file_name","&&","java","$file_base_name"],
+	"selector": "source.java",
+	"file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+	"file_patterns": ["*.java", "*.JAVA"],
+	"shell": true,
+	"syntax": "Packages/Java/Java.sublime-syntax"
+}

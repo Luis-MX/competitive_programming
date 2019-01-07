@@ -1,0 +1,8 @@
+{
+	"cmd": ["g++", "-o", "$file_base_name","-Wall", "$file_name","&&","${file_base_name}.exe"],
+	"selector": "source.c++",
+	"file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+	"file_patterns": ["*.cpp", "*.CPP"],
+	"shell": true,
+	"syntax": "Packages/Java/Java.sublime-syntax"
+}

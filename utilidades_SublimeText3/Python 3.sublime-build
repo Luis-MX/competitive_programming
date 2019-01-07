@@ -1,0 +1,8 @@
+{
+	"cmd": ["python","-u","$file_name"],
+	"selector": "source.python",
+	"file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+	"file_patterns": ["*.python", "*.PYTHON"],
+	"shell": true,
+	"syntax": "Packages/Python/Python.sublime-syntax"
+}
