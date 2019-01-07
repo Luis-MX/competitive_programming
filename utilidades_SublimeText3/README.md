@@ -1,4 +1,4 @@
-Build Systems de Submlime Text 3
+Build Systems de Sublime Text 3
 ====================================
 
 Un Build System se usa comunmente para compilar codigo usando la combinación `Ctrl+B`, los archivos de esta carpeta
